@@ -1,0 +1,38 @@
+{
+    "status": true,
+    "message": "Shipping Methods Request Successfully.",
+    "shipping_methods": [
+        {
+            "id": 1,
+            "name": "Flat Rate",
+            "rate": "120.00",
+            "area": "Bangladesh",
+            "note": "Test",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "name": "Inside Dhaka",
+            "rate": "60.00",
+            "area": "Dhaka",
+            "note": "Test",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "name": "Outside Dhaka",
+            "rate": "150.00",
+            "area": "Bangladesh",
+            "note": "Test",
+            "status": "Active"
+        },
+        {
+            "id": 4,
+            "name": "Free",
+            "rate": "0.00",
+            "area": "Bangladesh",
+            "note": "Test",
+            "status": "Active"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "status": true,
+    "message": "Delivery Agent Request Successfully.",
+    "record": {
+        "id": 1,
+        "code": "DA00001",
+        "name": "DHL",
+        "mobile": "01555555555",
+        "emergency_mobile": "01555555555",
+        "type": "Agent",
+        "opening_due": "0.00",
+        "status": "Active"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "oshnisoft/hrm",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ferdous Anam",
+            "email": "anam.programmer@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "sudippalash/blade-components": "*",
+        "sudippalash/mediauploader": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oshnisoft\\HRM\\": "src"
+        },
+        "files": [
+            "src/Helpers/Helper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Oshnisoft\\HRM\\HrmServiceProvider"
+            ],
+            "aliases": {
+                "MediaUploader": "Oshnisoft\\HRM\\Facades\\MediaUploader"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

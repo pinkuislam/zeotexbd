@@ -1,0 +1,26 @@
+{
+    "status": true,
+    "message": "banks Request Successfully.",
+    "banks": [
+        {
+            "id": 1,
+            "code": "B00001",
+            "account_name": "Cash",
+            "account_no": "11111111111",
+            "bank_name": "Cash",
+            "branch_name": "My Office",
+            "opening_balance": "0.00",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "code": "B00002",
+            "account_name": "Test",
+            "account_no": "11111111111",
+            "bank_name": "DBBL",
+            "branch_name": "Mirpur-1",
+            "opening_balance": "0.00",
+            "status": "Active"
+        }
+    ]
+}

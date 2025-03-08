@@ -1,0 +1,21 @@
+{
+    "status": true,
+    "message": "Units Request Successfully.",
+    "units": [
+        {
+            "id": 1,
+            "name": "gm",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "name": "goj",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "name": "pcs",
+            "status": "Active"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+php artisan migrate --path=database/migrations/hr
+php artisan db:seed --class=PermissionSeeder
+
+
+ALTER TABLE `purchase_grn_items` ADD `kg` DECIMAL(12,2) NULL DEFAULT NULL AFTER `quantity`, ADD `unit_kg_price` DECIMAL(12,2) NULL DEFAULT NULL AFTER `kg`;
+ALTER TABLE `purchase_orders` DROP `payment_method`;
+ALTER TABLE `purchase_orders` ADD `payment_id` BIGINT NULL DEFAULT NULL AFTER `updated_by`;
+ALTER TABLE `sale_items` CHANGE `pu_labor_cost` `pu_labor_cost` DECIMAL(10,2) NULL DEFAULT '0.00';
+
+
+ALTER TABLE `users` CHANGE `role` `role` ENUM('Admin','Customer','Supplier','Sales-Reference-Agent','Transport-Agent','Owner','Labor','Loan-Holder','Sales-Commission-Agent') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'Admin';
+ALTER TABLE `payments` CHANGE `tag` `tag` ENUM('Customer','Supplier','Sales-Reference-Agent','Transport-Agent','Owner','Labor','Loan-Holder','Expense','Income','Vat','Tax','Duties','Salary','Salary-Advance','Others','Sales-Commission-Agent') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'Others';
+ALTER TABLE `sales` ADD `sales_commission_agent_id` BIGINT(20) NULL AFTER `sales_reference_agent_id`; foreignId
+ALTER TABLE `sale_returns` ADD `sales_commission_agent_id` BIGINT(20) NULL AFTER `sales_reference_agent_id`; foreignId
+
+//pending task
+1. Add opening stock quantity and price in product crud except for Raw Material.
+
+
+        try {
+            DB::beginTransaction();
+
+            DB::commit();
+
+            $request->session()->flash('successMessage', 'GRN was successfully added!');
+            return redirect()->route('admin.purchase.grn.index');
+
+        } catch (Exception $e) {
+            DB::rollBack();
+            throw $e;
+            $request->session()->flash('errorMessage', 'Error Occured!! ' . $e);
+            return redirect()->route('admin.purchase.grn.index');
+        }

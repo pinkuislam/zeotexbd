@@ -1,0 +1,14 @@
+{
+    "status": true,
+    "message": "Bank Request Successfully.",
+    "bank": {
+        "id": 1,
+        "code": "B00001",
+        "account_name": "Cash",
+        "account_no": "11111111111",
+        "bank_name": "Cash",
+        "branch_name": "My Office",
+        "opening_balance": "0.00",
+        "status": "Active"
+    }
+}

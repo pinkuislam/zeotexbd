@@ -1,0 +1,166 @@
+{
+    "status": true,
+    "message": "Products Request Successfully.",
+    "products": [
+        {
+            "id": 1,
+            "name": "Print",
+            "code": "P00001",
+            "type": "Fabric",
+            "category": "Regular",
+            "unit": {
+                "id": 1,
+                "name": "gm",
+                "status": "Active"
+            },
+            "unit_price": "50.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "100.00",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "name": "Velvet",
+            "code": "P00002",
+            "type": "Fabric",
+            "category": "Regular",
+            "unit": {
+                "id": 2,
+                "name": "goj",
+                "status": "Active"
+            },
+            "unit_price": "500.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "name": "Korean Velvet",
+            "code": "P00003",
+            "type": "Fabric",
+            "category": "Regular",
+            "unit": {
+                "id": 2,
+                "name": "goj",
+                "status": "Active"
+            },
+            "unit_price": "500.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        },
+        {
+            "id": 4,
+            "name": "Ice Velvet",
+            "code": "P00004",
+            "type": "Fabric",
+            "category": "Regular",
+            "unit": {
+                "id": 2,
+                "name": "goj",
+                "status": "Active"
+            },
+            "unit_price": "500.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        },
+        {
+            "id": 5,
+            "name": "Turkey",
+            "code": "P00005",
+            "type": "Fabric",
+            "category": "Regular",
+            "unit": {
+                "id": 3,
+                "name": "pcs",
+                "status": "Active"
+            },
+            "unit_price": "500.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        },
+        {
+            "id": 6,
+            "name": "Print Regular Sofa 1 Sit",
+            "code": "P00006",
+            "type": "Base",
+            "category": "Regular",
+            "unit": {
+                "id": 1,
+                "name": "gm",
+                "status": "Active"
+            },
+            "unit_price": "3.00",
+            "reseller_price": "5.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        },
+        {
+            "id": 7,
+            "name": "Print Regular Sofa 2 Sit",
+            "code": "P00007",
+            "type": "Base",
+            "category": "Regular",
+            "unit": {
+                "id": 1,
+                "name": "gm",
+                "status": "Active"
+            },
+            "unit_price": "2.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        },
+        {
+            "id": 8,
+            "name": "Print Regular Sofa 3 Sit",
+            "code": "P00008",
+            "type": "Base",
+            "category": "Regular",
+            "unit": {
+                "id": 1,
+                "name": "gm",
+                "status": "Active"
+            },
+            "unit_price": "0.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        },
+        {
+            "id": 9,
+            "name": "Print Regular Cornar Sofa 1 Sit",
+            "code": "P00009",
+            "type": "Base",
+            "category": "Regular",
+            "unit": {
+                "id": 1,
+                "name": "gm",
+                "status": "Active"
+            },
+            "unit_price": "0.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        },
+        {
+            "id": 10,
+            "name": "Print Regular Cornar Sofa 2 Sit",
+            "code": "P00010",
+            "type": "Base",
+            "category": "Regular",
+            "unit": {
+                "id": 1,
+                "name": "gm",
+                "status": "Active"
+            },
+            "unit_price": "0.00",
+            "reseller_price": "0.00",
+            "alert_quantity": "10.00",
+            "status": "Active"
+        }
+    ]
+}

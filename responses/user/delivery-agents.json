@@ -1,0 +1,46 @@
+{
+    "status": true,
+    "message": "Delivery Agents Request Successfully.",
+    "data": [
+        {
+            "id": 1,
+            "code": "DA00001",
+            "name": "DHL",
+            "mobile": "01555555555",
+            "emergency_mobile": "01555555555",
+            "type": "Agent",
+            "opening_due": "0.00",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "code": "DA00002",
+            "name": "Staff",
+            "mobile": "01555555556",
+            "emergency_mobile": "01555555556",
+            "type": "Staff",
+            "opening_due": "0.00",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "code": "DA00003",
+            "name": "Golam Rabbani",
+            "mobile": "01974689615",
+            "emergency_mobile": "01880876701",
+            "type": "Staff",
+            "opening_due": "0.00",
+            "status": "Active"
+        },
+        {
+            "id": 4,
+            "code": "DA00004",
+            "name": "Md. Mostafa Kamal",
+            "mobile": "01940336815",
+            "emergency_mobile": "01940336815",
+            "type": "Staff",
+            "opening_due": "0.00",
+            "status": "Active"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "status": true,
+    "message": "Shipping Method Request Successfully.",
+    "shipping_methods": {
+        "id": 2,
+        "name": "Inside Dhaka",
+        "rate": "60.00",
+        "area": "Dhaka",
+        "note": "Test",
+        "status": "Active"
+    }
+}

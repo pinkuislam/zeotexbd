@@ -1,0 +1,31 @@
+{
+    "status": true,
+    "message": "Colors Request Successfully.",
+    "colors": [
+        {
+            "id": 1,
+            "name": "Red",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "name": "Green",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "name": "Yellow",
+            "status": "Active"
+        },
+        {
+            "id": 4,
+            "name": "Blue",
+            "status": "Active"
+        },
+        {
+            "id": 5,
+            "name": "Black",
+            "status": "Active"
+        }
+    ]
+}

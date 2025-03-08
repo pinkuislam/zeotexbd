@@ -1,0 +1,9 @@
+{
+    "status": true,
+    "message": "Color Request Successfully.",
+    "color": {
+        "id": 1,
+        "name": "Red",
+        "status": "Active"
+    }
+}
